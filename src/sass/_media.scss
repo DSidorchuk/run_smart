@@ -69,11 +69,23 @@
             margin-bottom: 18px;
         }
     }
+    .consultation {
+        padding-top: 64px;
+        .container{
+            padding-left: 50px;
+        }
+        .title_left {
+            font-size: 31px;
+        }
+        &__descr {
+            margin-top: 26px;
+        }
+    }
 } 
 
 @media (max-width: 575px) {
     .container {
-        min-width: 575px;
+        max-width: 575px;
     }
     .header {
         &__logo {
