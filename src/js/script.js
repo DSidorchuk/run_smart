@@ -5,7 +5,24 @@ const slider = tns({
     slideBy: 'page',
     autoplay: false,
     nav: false,
-    controls: false
+    controls: false,
+    responsive: {
+      575: {
+        center: true,
+        prevButton: false,
+        nextButton: false,
+        nav: true,
+      },
+      767: {
+        center: true,
+        prevButton: false,
+        nextButton: false,
+        nav: true
+      },
+      768: {
+        nav: false
+      }
+   }
 });
 
 document.querySelector('.prev').addEventListener('click', () => {
