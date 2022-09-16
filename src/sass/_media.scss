@@ -167,6 +167,25 @@
             font-size: 12px;
         }
     }
+
+    .consultation {
+        .container {
+            padding-right: 50px;
+        }
+        .title_left {
+            text-align: center;
+            font-size: 21px;
+        }
+        &__descr {
+            text-align: center;
+            font-size: 18px;
+        }
+        .feed-form {
+            margin: 0 auto;
+            margin-top: 70px;
+        }   
+    }
+
     .button {
         &_main {
             margin-top: 50px;

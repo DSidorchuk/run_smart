@@ -25,5 +25,11 @@
         width: 131px;
         height: 40px;
         font-size: 14px;
+        transition: 0,8s all;
+        &:hover {
+            box-shadow: 0 0 10px $main-color;
+            border: none;
+            transform: scale(0.95);
+        }
     }
 }
