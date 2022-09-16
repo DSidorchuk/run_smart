@@ -19,40 +19,6 @@
 }
 
 @media (max-width: 767px){
-    .carousel {
-        .next, .prev {
-            display: none;
-        }
-        .tns-outer {
-            position: relative;
-            .tns-nav{
-                display: flex;
-                justify-content: space-around;
-                position: absolute;
-                top: 103%;
-                left: 50%;
-                transform: translateX(-50%);
-                width: 150px;
-                height: 15px;
-                margin: 0 auto;
-                &-active  {
-                    background-color: $main-color;
-                }
-                button {
-                    width: 15px;
-                    height: 15px;
-                    padding: 0;
-                    border-radius: 100%;
-                    border-color: $main-color;
-
-                }
-            }
-        }
-        img {
-            width: 85%;
-        }
-    }
-
     .container {
         width: 100%;
     }
@@ -122,6 +88,42 @@
         }
         &__descr {
             margin-top: 26px;
+        }
+    }
+    .carousel {
+        .next, .prev {
+            display: none;
+        }
+        .tns-outer {
+            position: relative;
+            .tns-nav{
+                display: flex;
+                justify-content: space-around;
+                position: absolute;
+                top: 103%;
+                left: 50%;
+                transform: translateX(-50%);
+                width: 150px;
+                height: 15px;
+                margin: 0 auto;
+                // &-active  {
+                //     background-color: $main-color;
+                // }
+                button {
+                    width: 15px;
+                    height: 15px;
+                    padding: 0;
+                    border-radius: 100%;
+                    border-color: $main-color;
+                    background-color: #fff;
+                }
+            }
+            button.tns-nav-active {
+                background-color: $main-color
+            }
+        }
+        img {
+            width: 85%;
         }
     }
     .catalog {

@@ -9,4 +9,13 @@
         text-align: left;
         margin-top: 80px;
     }
+    .error {
+        border: 1px solid red;
+        text-align: center;
+    }
+    label.error {
+        color:#ffffff;
+        border: none;
+        margin-bottom: 15px;
+    }
 }
