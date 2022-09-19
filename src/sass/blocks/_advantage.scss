@@ -24,6 +24,12 @@
             display: block;
             margin: 0 auto;
             margin-bottom: 38px;
+
+        }
+        &:nth-child(2) {
+            img {
+                animation: heartbeat 2s ease infinite;
+            }
         }
         span {
             display: block;
@@ -38,4 +44,5 @@
             text-decoration: underline;
         }
     }
+
 }
